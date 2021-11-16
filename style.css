@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0 auto;
+	padding: 0;
+	}
+.main{
+	height:1816px;
+	width:100%;
+	}
+.header{
+	height:100px;
+	width:100%;
+	background-color:#fe9909;
+	}
+#header1{
+	height:100px;
+	width:70%;
+	float:left;
+	}
+#header1 input{
+	height:36px;
+	width:84px;
+	margin-top:28px;
+	color:white;
+	border:none;
+	border-radius:5px;
+	}
+#reg{
+	background:linear-gradient(#f22f33,#eb1c16);
+	margin-left:100px;
+	}
+#sign{
+	background:linear-gradient(#fa8301,#f85800);
+	}
+#help{
+	background:linear-gradient(#0587ff,#0462ff);
+	}
+#header2{
+	height:100px;
+	width:30%;
+	float:left;
+	}
+#header2 input{
+	border:none;
+	height:20px;
+	border-radius:5px;
+	margin:32px 0 0 60px;
+	float:left;
+	padding:5px;
+	}
+#header2 p {
+	 font-size: 14px;
+	 text-align:center;
+	 margin: 16px 56px 0 0;
+	 color:white;
+	 }	 
+.main-header{
+	background-color:#fe9909;
+	height:100px;
+	width:100%;
+	}
+.main-header-title{
+	width:40%;
+	height:100px;
+	float:left;
+	}
+.main-header-title h1{
+	color:#fff;
+	font-size:60px;
+	margin:4px 0 0 100px;
+	letter-spacing:4px;
+	}	
+.main-header-title p{
+	margin: 1px 0 0 100px;
+	}
+	
+.main-nav{
+	float:left;
+	margin:40px 0 0 220px
+	}
+.main-nav li{
+	list-style:none;
+	float:left;
+	margin-left:20px;
+	font-size:20px;
+	}
+.main-nav .focused{
+	height:28px;
+	width:60px;
+	background-color:red;
+	text-align:center;
+	padding:4px;
+	border-radius:5px;
+	}
+.main-nav .hovered{
+	color:white;
+	}
+			
+.head-desc{
+	height:100px;
+	background-color:#fe9909;
+	text-transform:uppercase;
+	font-size:28px;
+	text-align:center;
+	padding:28px 0 0 0;
+	}
+.bullets{
+	text-align:center;
+	clear:both;
+	padding:40px 0 0 49%;
+	height:140px;
+	background-color:#fe9909;
+	}
+	
+.bullets li{
+	text-align:center;
+	margin-left:12px;
+	float:left;
+	}
+		
+.pics{
+	height:320px;
+	background-color:white;
+	}
+.pic1{
+	background-color:white;
+	height:240px;
+	width:240px;
+	padding-top:16px;
+	float:left;
+	margin-left:8%;
+	text-align:center;
+	border-radius:240px;
+	margin-top:-120px;
+	}
+.pic2{
+	background-color:white;
+	height:240px;
+	width:240px;
+	padding-top:16px;
+	float:left;
+	margin-left:4%;
+	text-align:center;
+	border-radius:240px;
+	margin-top:-120px;
+	}
+.pic3{
+	background-color:white;
+	height:240px;
+	width:240px;
+	padding-top:16px;
+	float:left;
+	margin-left:4%;
+	text-align:center;
+	border-radius:240px;
+	margin-top:-120px;
+	}
+.pic4{
+	background-color:white;
+	height:240px;
+	width:240px;
+	float:left;
+	padding-top:16px;
+	margin:0 8% 0 4%;
+	text-align:center;
+	border-radius:240px;
+	margin-top:-120px;
+	}
+		
+.img-txt{
+	font-size:24px;
+	}
+.img-txt span{
+	color:gray;
+	}
+			
+.lower{
+	margin-top:-40px;
+	height:140px;
+	width:100%;
+	clear:both;
+	}
+.dummy-txt{
+	padding:10px 4px 0px 4px;
+	font-size:12px;
+	font-style:italic;
+	height:140px;
+	width:180px;
+	text-align:center;
+	margin-left:120px;
+	float:left;
+	}
+.dummy-txt input{
+		font-size:12px;
+		padding:4px;
+		margin:40px 0 10px 0;
+		border-radius:10px;
+		}
+		
+.det{
+	height:636px;
+	width:100%;
+	background-color:white;
+	border-top:2px solid gray;
+	}
+.det-left{
+	text-align:left;
+	padding:80px 0 0 160px;
+	float:left;
+	}
+.det-left p{
+	font-size:30px;}
+.det-left input{
+	height:32px;
+	width:200px;
+	text-align:left;
+	padding:4px 0 8px 20px;
+	border-radius:5px;}
+.det-left li{
+	font-weight:bold;
+	font-size:12px;
+	text-transform:uppercase;
+	margin-left:10px;
+	}
+.det-mid{
+	padding:80px 0 0 120px;
+	float:left;
+	}
+.det-mid p{
+	font-size:30px;}
+.det-mid img{
+	border-radius:10px;
+	border:3px;
+	border-color:gray;
+	}
+.det-right{
+	float:left;
+	padding:164px 0 0 120px;}
+.det-right p{
+	font-size:14px;}
+.footer{
+	height:286px;
+	width:100%;
+	background-color:black;}
+.foot{
+	float:left;
+	color:white;
+	padding:36px 0 0 160px;
+	}
+.foot li{
+	margin-left:16px;
+	}
+.p1{
+	font-size:12px;
+}
+.p2{
+	margin-top:40px;
+	font-size:12px;
+	}
+.copyright{
+	height:64px;
+	background-color:black;
+	border-top:2px solid gray;
+	font-size:12px;
+	}
+.copyright p{
+	padding:24px 0 0 160px;
+	color:gray;}
+.imgs{
+	float:right;
+	margin:-1.6% 120px 0 0;}
+img{
+	margin-left:8px;
+	border-radius:32px;}
